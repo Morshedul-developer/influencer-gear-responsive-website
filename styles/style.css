@@ -65,6 +65,27 @@ main {
   display: grid;
 }
 
+.primary-btn{
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px;
+    color: var(--white-color);
+    background-color: var(--primary-button-color);
+    border: none;
+    cursor: pointer;
+}
+#banner-btn{
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+
+
 /* main styles */
 
 /* header section related styles */
@@ -90,4 +111,41 @@ main {
     text-decoration: none;
     font-weight: 600;
     color: var(--primary-color);
+}
+
+/* banner section related styles */
+.banner{
+    max-width: 1188px;
+    margin: 0 auto;
+    gap: 133px;
+    align-items: center;
+    padding: 50px 0 69px 0;
+}
+.banner-info{
+    max-width: 582px;
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.b-i-1{
+    position: relative;
+}
+.b-i-2{
+    position: absolute;
+    z-index: 1;
+}
+.banner-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+}
+.banner-des{
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 16.1px;
 }
