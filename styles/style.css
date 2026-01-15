@@ -147,5 +147,130 @@ main {
 .banner-des{
     font-weight: 600;
     color: var(--primary-color);
-    margin-bottom: 16.1px;
+    margin-bottom: 20px;
+}
+
+/* company section related styles */
+.company{
+    justify-content: center;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+    gap: 61px;
+    padding: 36px 0;
+    position: relative;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50%, rgba(192, 204, 218, 0.1) 100%) 1;
+    margin-bottom: 100px;
+}
+
+/* collection section related styles */
+.collection{
+    max-width: 1047px;
+    margin: 0 auto;
+}
+.collection-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 4.375rem;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.collection-cards{
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.collection-card{
+    padding: 17px 14px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card-image{
+    margin-bottom: 16px;
+}
+.card-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: var(--card-heading-color);
+    margin-bottom: 6px;
+}
+.price{
+    font-family: inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--black-color);
+    margin-bottom: 10px;
+}
+.ratings{
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.stars{
+    gap: 3px;
+    align-items: center;
+}
+.stars i{
+    font-size: 1rem;
+    color: #FB8200;
+}
+.rate{
+    font-family: roboto;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    letter-spacing: 0.1px;
+}
+.avail{
+    font-family: inter;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: .5px;
+}
+.see-more{
+    gap: 6px;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+}
+.see{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.see,i{
+    color: #E02C6D;
+}
+
+.featured-product{
+    max-width: 1110px;
+    margin: 100px auto;
+}
+.product-container{
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+}
+.product-info{
+    max-width: 610px;
+}
+.product-title{
+    font-size: 2.375rem;
+    line-height: 3.75rem;
+    color: var(--featured-heading-color);
+    margin-bottom: 16px;
+}
+.product-des{
+    line-height: 1.75rem;
+    color: var(--featured-para-color);
+    margin-bottom: 16px;
 }
